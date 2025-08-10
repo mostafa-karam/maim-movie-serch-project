@@ -2,7 +2,6 @@
 
 A modern, responsive React application for discovering and managing your favorite movies. Built with React, TypeScript, Tailwind CSS, and The Movie Database (TMDB) API.
 
-
 ## 🎬 Features
 
 ### Core Functionality
@@ -47,31 +46,15 @@ A modern, responsive React application for discovering and managing your favorit
 
    ```bash
    npm install
-   # or
-   pnpm install
    ```
 
-3. **Configure API Key** (Optional)
-   - Get a free API key from [The Movie Database (TMDB)](https://www.themoviedb.org/settings/api)
-   - Update `src/config/api.js`:
-
-     ```javascript
-     export const API_CONFIG = {
-       TMDB_API_KEY: 'your_api_key_here',
-       USE_MOCK_DATA: false, // Set to false to use real API
-       // ... other config
-     };
-     ```
-
-4. **Start the development server**
+3. **Start the development server**
 
    ```bash
    npm run dev
-   # or
-   pnpm run dev
    ```
 
-5. **Open your browser**
+4. **Open your browser**
    Navigate to `http://localhost:5173` to view the application.
 
 ## 📱 Usage Guide
@@ -188,14 +171,14 @@ Edit `src/config/api.js` to configure the application:
 ```javascript
 export const API_CONFIG = {
   // Your TMDB API key
-  TMDB_API_KEY: 'your_api_key_here',
-  
+  TMDB_API_KEY: "your_api_key_here",
+
   // Use mock data for development (true) or real API (false)
   USE_MOCK_DATA: true,
-  
+
   // API endpoints
-  TMDB_BASE_URL: 'https://api.themoviedb.org/3',
-  TMDB_IMAGE_BASE_URL: 'https://image.tmdb.org/t/p'
+  TMDB_BASE_URL: "https://api.themoviedb.org/3",
+  TMDB_IMAGE_BASE_URL: "https://image.tmdb.org/t/p",
 };
 ```
 
